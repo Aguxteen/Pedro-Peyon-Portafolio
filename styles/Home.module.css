@@ -1,76 +1,351 @@
-.container {
-  padding: 0 2rem;
-}
 
+
+
+/* "/45degreee_fabric.png"*/
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  background-image: url("/carbon_fibre.png" );
+  position: relative;
+  height: 100vh;
+  padding: 0;
+  border-bottom: 2px solid var(--color-fondo);
   flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  gap: 2rem;
+  flex-direction: row;
+  align-items:center;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-color: rgba(255, 255, 255, 0.671); 
 }
+
+
+
 
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  padding: 1rem 0;
+  border-top: 1px solid var(--color-detalle);
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 0px 8px 0px var(--color-detalle);
+
+
 }
 
-.footer a {
+.footer a{
   display: flex;
-  justify-content: center;
+  justify-content:left;
+  align-items: center;
+  height: 2rem;
+  flex-grow: 1;
+  margin-left: 1rem;
+  padding: 1rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius:2rem ;
+} 
+.footer h1 {
+  display: flex;
+  justify-content:left;
   align-items: center;
   flex-grow: 1;
 }
+.footer img{
+  background-color: var(--color-detalle);
+  padding-left: 8rem;
+  height: 10rem;
+  max-width: 100vw;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+.titleDiv{
+  display: flex;
+  flex-direction: column;
 
+  background-image: url("/crallonado2.png");
+  background-attachment: fixed;
+  background-clip: text;
+
+}
 .title a {
-  color: #0070f3;
+  display:block;
+  color: transparent;
   text-decoration: none;
+  transition: .5s;
+  
 }
 
+.buttonCV:hover{
+  background-color:#2e7553;
+
+}
 .title a:hover,
 .title a:focus,
 .title a:active {
+  color: var(--color-detalle);
   text-decoration: underline;
+  -webkit-text-stroke: 0px var(--color-blanco);
+
 }
 
 .title {
+  display:inline-block;
+  color: var(--color-blanco);
   margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.developer{
+    display:inline;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+  
 }
 
 .title,
 .description {
-  text-align: center;
+}
+.perfil{
+  height: 20rem;
+  background-image: url("/crallonado2.png");
+  background-attachment: fixed;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius:50% ;
 }
 
+.seconDiv{
+
+  height: 20rem;
+  width: 20rem;
+  
+  background-image: url("/crallonado2.png");
+  background-attachment: fixed;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+
+}
+.seconDiv button{
+  transition: .5s;
+
+  background-color: #2e7553;
+  display:block;
+  color: var(--color-azul);
+  padding: 6%;
+  margin-top: 1em ;
+  line-height: 1.15;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  border: none;
+  transition: .5s;
+  background-attachment: fixed;
+  cursor: pointer;
+}
+.seconDiv button:hover,
+.title button:focus,
+.title button:active{
+  background-color: var(--color-fondo);
+  
+}
 .description {
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
 
 .grid {
-  display: flex;
-  align-items: center;
   justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+  display: flex;
+  margin-bottom: 3rem;
   flex-wrap: wrap;
-  max-width: 800px;
+
+}
+.grid a, .grid p{
+  color: var(--color-blanco);
+  
+  padding: 0;
+  line-height: 1.15;
+  font-size: 1rem;
+  font-weight: 600;
+  
+}
+.grid h2 {
+  color: var(--color-blanco);
+  justify-content: center;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.aboutDiv{
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
+  flex-direction: row;
+  background-image: url("/crallonado2.png");
+  background-attachment: fixed;  display:inline-block;
+  justify-content:space-around;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50%;
+}
+.aboutDiv h1{
+  
+  color: var(--color-blanco);
+  
+  padding: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.aboutDiv h2{
+  
+  color: var(--color-blanco);
+  
+  padding: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.aboutDiv p{
+  
+  color: var(--color-blanco);
+  
+  padding: 0;
+  line-height: 1.15;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.divImagenesStudies{
+  background-color: #fff;
+  border-radius: 3rem;
+  margin-top: 5rem ;
+  padding: 2rem;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+
+}
+.flex{
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+}
+.flex2{
+  border: 1px solid #eaeaea21;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: row;
+  padding: 1rem;
+  width: 60rem;
+}
+.divImagenesSkills p{
+  
+  color: var(--color-fondo);
+  
+  padding: 0;
+  line-height: .5;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.divImagenesSkills{
+  padding: 1rem;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+.divBlanco{
+  background-color: #fff;
+  border-radius: 5rem;
+  padding: 1rem;
+}
+.divBlanco h2{
+  color: var(--color-fondo);
+  padding: 0;
+  line-height: 1.15;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.aboutDiv img{
+  height: 8rem;
+  width: 8rem;
+
+}
+.aboutMeDiv{
+  margin-bottom: 1rem;
+  padding: 3rem;
+  background-color: var(--color-fondo);
+  width: 40vw;
+  border-radius: 3rem;
+  align-items: center;
+}
+.centrar{
+  text-align: center;
+}
+.aboutMeDiv h1{
+  text-align: center;
+}
+.aboutMeDiv h2{
+  text-align: center;
+}
+.buttonCV{
+  background-color: var(--color-detalle);
+  color: var(--color-blanco);
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.skillsDiv{
+  margin-bottom: 1rem;
+
+  padding: 3rem;
+  background-color: var(--color-fondo);
+  width: 40vw;
+  border-radius: 3rem;
+}
+.skillsDiv h1{
+  text-align: center;
+}
+.projectsDiv{
+  text-align: center;
+  
+}
+
+.proyectos{
+  margin: 1rem;
+  height: 15rem;
+  width:  25rem;
+  border-radius: 1rem;
+}
+
+.cardflex{
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -79,18 +354,17 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  
+  width: 40%;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+
+.flex2:hover,
+.flex2:active {
+  border-color: var(--color-detalle);
+  box-shadow: 0px 0px 8px 0px var(--color-detalle);
 }
+
 
 .card h2 {
   margin: 0 0 1rem 0;
@@ -107,6 +381,56 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+.contactMe h1{
+  text-align: center;
+justify-content: center;
+}
+.contacts{
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50%;
+}
+.contacts p{
+  display: inline;
+  color: var(--color-detalle);
+}
+.contacts a{
+  
+  color: #eaeaea41;
+}
+.contacts h2{
+  
+  margin: 3px;
+}
+.contact{
+  animation-name: julio;
+  animation-duration: 3s;
+  margin-bottom: 1rem;
+}
+.izquierda{
+  text-align: right;
+}
+
+/* ========================================================= */
+  .botoncitos{
+    display:none;
+    top:0;
+    left: 5px;
+    position: fixed;
+    opacity: 0.9;
+    padding: .5rem;
+  }
+  .botoncitos button{
+    margin: 2px;
+    border: none;
+    background-color: var(--color-detalle);
+    border-radius: 1rem;
+  }
+/* ========================================================= */
+
 
 @media (max-width: 600px) {
   .grid {
@@ -114,3 +438,113 @@
     flex-direction: column;
   }
 }
+@media (max-width: 1340px) {
+  .title{
+    font-size: 3rem;
+  }
+  .perfil{
+    height: 15rem;
+  }
+  .seconDiv{
+    height: 15rem;
+    width: 15rem;
+    border-top-right-radius: calc(15/2);
+    border-bottom-right-radius: calc(15/2);
+  }
+}
+@media (max-width: 768px){
+  /* Main ==============================*/
+  .botoncitos{
+    display: block;
+  }
+.main{
+  gap:1rem;
+  
+}
+.seconDiv{
+  display:none
+  }
+  .perfil{
+    height: 10rem;
+  }
+  .title{
+    font-size: 2rem;
+  }
+  .developer{
+    font-size: 1.5rem;
+  }
+  /* About ==============================*/
+  .aboutDiv h1{
+    font-size: 2.5rem;
+  }
+  .aboutDiv h2{
+    font-size: 2rem;
+  }
+  .aboutDiv p{
+    font-size: 1rem;
+  }
+  .aboutMeDiv{
+    width: 70%;
+    border-radius: 2rem;
+
+  }
+  .buttonCV{
+    font-size: 1rem;
+  }
+  .aboutDiv img{
+    height: 5rem;
+    width: 5rem;
+  
+  }
+  /* Skills============================== */
+  .skillsDiv{
+    width: 70%;
+    border-radius: 2rem;
+
+  }
+  .divBlanco{
+    border-radius: 3rem;
+  }
+  /* conctact============================== */
+  .contacts{
+    margin: 3rem;
+  }
+  .contacts h2{
+    font-size: 1.5rem;
+    margin: 2px;
+  }
+  .contacts p{
+    font-size: 1.5rem;
+  }
+  .contacts a{
+    font-size: 1rem;
+  }
+  .izquierda{
+    text-align: left;
+  }
+    /* proyectos============================== */
+    .projectsDiv p,
+    .projectsDiv a {
+      margin: 10px;  
+      font-size: 1rem;
+    }
+  .proyectos{
+    margin: 1rem;
+    height: 10rem;
+    width:  20rem;
+    border-radius: 1rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .flex2{
+    flex-wrap: wrap;
+    width:auto;
+  }
+  /* footer============================== */
+  .footer h1{
+    font-size: 2rem;
+  }
+  
+}
+
