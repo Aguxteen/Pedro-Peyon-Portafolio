@@ -1,4 +1,5 @@
 import { useState } from "react";
+import estilos from '../styles/Home.module.css'
 
 
 export default function PopUp ({styles , onClick}){
@@ -14,8 +15,8 @@ export default function PopUp ({styles , onClick}){
     }
     if(show)return(
         <>
-        <img className={styles.botoncitosimg} onClick={setFalse} src="/hamburger.png" alt="hamburger"/>
-        <div className={styles.botoncitos}>
+        <img className={estilos.botoncitosimg} onClick={setFalse} src="/hamburger.png" alt="hamburger"/>
+        <div className={styles}>
         <button value="about" onClick={onClick}>About Me</button>
         <button value="skills" onClick={onClick}>My skills</button>
         <button value="projects" onClick={onClick}>My projects</button>
@@ -24,8 +25,8 @@ export default function PopUp ({styles , onClick}){
         </>
     )
     return( <>
-            <img className={styles.botoncitosimg} onClick={setTrue} src="/hamburger.png" alt="hamburger"/>
-        <div className={styles.botoncitos}>
+            <img className={estilos.botoncitosimg} onClick={setTrue} src="/hamburger.png" alt="hamburger"/>
+        <div className={styles}>
         </div>
         </>
     ) 

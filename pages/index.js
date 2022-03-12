@@ -42,7 +42,7 @@ export default function Home() {
           
         </div>
        
-        <PopUp onClick={onClick} styles={styles}/>
+        <PopUp onClick={onClick} styles={styles.botoncitos}/>
         
         </main>
         <div id='about'  className={styles.aboutDiv}>
