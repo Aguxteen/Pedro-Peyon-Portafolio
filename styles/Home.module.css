@@ -29,7 +29,7 @@
   border-top: 1px solid var(--color-detalle);
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 8px 0px var(--color-detalle);
+  box-shadow: 0px -5px 5px -1px var(--color-detalle);
 
 
 }
@@ -418,17 +418,37 @@ justify-content: center;
   .botoncitos{
     display:none;
     top:0;
-    left: 5px;
+    left: 50px;
     position: fixed;
     opacity: 0.9;
     padding: .5rem;
   }
   .botoncitos button{
+   
     margin: 2px;
     border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: var(--color-detalle);
     border-radius: 1rem;
   }
+  
+  .botoncitosimg{
+    display:none;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+    border: none;
+    padding: 10px;
+    
+
+    background-color: var(--color-detalle);
+    border-radius: 1rem;
+  }
+  
 /* ========================================================= */
 
 
@@ -456,6 +476,10 @@ justify-content: center;
   /* Main ==============================*/
   .botoncitos{
     display: block;
+  }
+  .botoncitosimg{
+    display: block;
+
   }
 .main{
   gap:1rem;

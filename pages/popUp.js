@@ -13,19 +13,21 @@ export default function PopUp ({styles , onClick}){
         setShow(false)
     }
     if(show)return(
-        <div className={styles}>
-        <button onClick={setFalse} >...</button>
+        <>
+        <img className={styles.botoncitosimg} onClick={setFalse} src="/hamburger.png" alt="hamburger"/>
+        <div className={styles.botoncitos}>
         <button value="about" onClick={onClick}>About Me</button>
         <button value="skills" onClick={onClick}>My skills</button>
         <button value="projects" onClick={onClick}>My projects</button>
         <button value="contact" onClick={onClick}>Contact Me</button>
         </div>
+        </>
     )
-    return(
-        <div className={styles}>
-             <button onClick={setTrue} >...</button>
+    return( <>
+            <img className={styles.botoncitosimg} onClick={setTrue} src="/hamburger.png" alt="hamburger"/>
+        <div className={styles.botoncitos}>
         </div>
-       
+        </>
     ) 
     
 
