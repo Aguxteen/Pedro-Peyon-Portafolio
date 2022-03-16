@@ -55,7 +55,7 @@ export default function Home() {
                   contribute 100% of my effort to the development of the project. 
               </p>
               <div className={styles.centrar}>
-              {/* <a download="CV_PedroPeyon" href="/CV_Pedro_Peyon.pdf" className={styles.buttonCV} >Download full CV</a>   */}
+              <a download="CV_Pedro_Peyon" href="/CV_Pedro_Peyon_ENGLISH.pdf" className={styles.buttonCV} >Download full CV</a>  
               </div>
               
             <h2>Studies</h2>
