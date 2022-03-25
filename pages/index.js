@@ -153,6 +153,11 @@ export default function Home() {
               <p>FullStack App about videogames where you can find, filter, order, and create videogames using information from an API</p></div>
                <div><img  alt="Videogames" className={styles.proyectos} src='/PI_videogames.png'/> <p>Click to view code</p></div>
             </a>
+            <a target="_blank " href='https://tic-tac-toe-pedro-peyon.vercel.app/' className={styles.flex2}>
+            <div><img alt="tictactoe" className={styles.proyectos} src='/tictactoe.png'/> <p>Click to play</p></div>
+            <div className={styles.card}><h2>Tic Tac Toe</h2> 
+              <p>Tic Tac Toc videogame with offline and online rooms where you can play with other users using Socket.io</p></div>
+          </a>
           
         </div>
         
