@@ -419,15 +419,28 @@ justify-content: center;
     position: fixed;
     opacity: 0.9;
     padding: .5rem;
+    
+  }
+  @keyframes botones {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+
   }
   .botoncitos button{
-   
+    color: var(--color-blanco);
     margin: 2px;
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: var(--color-detalle);
     border-radius: 1rem;
+    animation-iteration-count: 1;
+    animation-duration: .5s;
+    animation-name: botones;
   }
   
   .botoncitosimg{
