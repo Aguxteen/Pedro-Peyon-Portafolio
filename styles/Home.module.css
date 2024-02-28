@@ -20,8 +20,6 @@
 }
 
 
-
-
 .footer {
   display: flex;
   flex: 1;
@@ -62,11 +60,14 @@
 .titleDiv{
   display: flex;
   flex-direction: column;
-
+  
   background-image: url("/crallonado2.png");
   background-attachment: fixed;
   background-clip: text;
 
+}
+.title{
+  text-align: left;
 }
 .title a {
   display:block;
@@ -77,8 +78,7 @@
 }
 
 .buttonCV:hover{
-  background-color:#2e7553;
-
+  background-color:var(--color-detalle-oscuro);
 }
 .title a:hover,
 .title a:focus,
@@ -87,6 +87,14 @@
   text-decoration: underline;
   -webkit-text-stroke: 0px var(--color-blanco);
 
+}
+.techDiv{
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 .title {
@@ -119,40 +127,51 @@
 }
 
 .seconDiv{
-
   height: 20rem;
   width: 20rem;
-  
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
   background-image: url("/crallonado2.png");
   background-attachment: fixed;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
 
 }
+.flexButtons {
+
+  align-content: center;
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 1rem;
+}
 .seconDiv button{
   transition: .5s;
-
-  background-color: #2e7553;
-  display:block;
-  color: var(--color-azul);
-  padding: 6%;
-  margin-top: 1em ;
+  text-align: left;
+  width: fit-content;
+  background-color: var(--color-blanco);
+  color: var(--color-fondo);
   line-height: 1.15;
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   border-top-right-radius: 3rem;
   border-bottom-right-radius: 3rem;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  flex-grow: 1;
   border: none;
   transition: .5s;
-  background-attachment: fixed;
   cursor: pointer;
 }
 .seconDiv button:hover,
 .title button:focus,
 .title button:active{
   background-color: var(--color-fondo);
-  
+  color: var(--color-blanco);
+
 }
 .description {
   margin: 4rem 0;
@@ -291,14 +310,16 @@
   margin-bottom: 1rem;
   padding: 3rem;
   background-color: var(--color-fondo);
-  width: 40vw;
-  border-radius: 3rem;
+  width: 70vw;
+  border-radius: 1rem;
   align-items: center;
 }
 .centrar{
   text-align: center;
 }
 .aboutMeDiv h1{
+  color: var(--color-detalle);
+
   text-align: center;
 }
 .aboutMeDiv h2{
@@ -322,17 +343,39 @@
 
   padding: 3rem;
   background-color: var(--color-fondo);
-  width: 40vw;
-  border-radius: 3rem;
+  width: 70vw;
+  border-radius: 1rem;
 }
 .skillsDiv h1{
   text-align: center;
 }
+.experienceDiv{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.pNewtech{
+  margin: 1em;
+}
+/* .experienceDiv div{
+  margin: 1rem;
+  height: 15rem;
+  width:  50rem;
+  border-radius: 1rem;
+  flex: row;
+} */
 .projectsDiv{
   text-align: center;
   
 }
-
+.newtechimg{
+  margin: 1rem;
+  height: 20rem;
+  width:  20rem;
+  border-radius: 1rem;
+}
 .proyectos{
   margin: 1rem;
   height: 15rem;
@@ -557,6 +600,7 @@ justify-content: center;
     text-align: left;
   }
     /* proyectos============================== */
+    .experienceDiv,
     .projectsDiv p,
     .projectsDiv a {
       margin: 10px;  

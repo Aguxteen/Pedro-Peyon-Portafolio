@@ -1,0 +1,147 @@
+{
+  "head": {
+    "title": ["Hola,", "soy"],
+    "subtitle":"Desarrollador Fullstack",
+    "buttons": [
+      {
+        "text": "Sobre mi",
+        "value": "about"
+      },
+      {
+        "text": "Experiencia",
+        "value": "experience"
+      },
+      {
+        "text": "Proyectos",
+        "value": "projects"
+      },
+      {
+        "text": "Contácteme",
+        "value": "contact"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre mi",
+    "presentation": [
+      "Desarrollador full stack con ",
+      "2 años de experiencia",
+      " en tecnologías como React, Node o Tailwind. Me encanta programar, sobre todo en proyectos que desafíen mis habilidades, para poder seguir creciendo como profesional."
+    ],
+    "technologies": "Tecnologías"
+  },
+  "experience": {
+    "title": "Mi experiencia",
+    "date": "abr. 2022 - oct. 2023",
+    "description": [
+      "En Newtech Group tuve la suerte de trabajar con un gran equipo que me brindó la oportunidad de asumir una amplia gama de responsabilidades. Esta experiencia me permitió adquirir una comprensión profunda del desarrollo web, Uno de los hitos más destacados de mi tiempo en Newtech fue",
+      " asumir el liderazgo en un proyecto de migración ",
+      ". No solo participé activamente en la codificación y la resolución de problemas técnicos, sino que también asumí el rol de líder del proyecto, supervisando y dirigiendo a dos colegas en la ejecución del proyecto. Aunque esta experiencia supuso un gran desafío,",
+      " impulsó mis habilidades como programador y a mi gestión de proyectos"
+    ],
+    "technologies": "Tecnologías"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "list": [
+      {
+        "anchor": "https://appsource.microsoft.com/es-es/product/web-apps/newtech.1001-0001?tab=Overview",
+        "anchor_msg": "Ir a la tienda",
+        "img": {
+          "alt": "NewCos image",
+          "src": "https://store-images.s-microsoft.com/image/apps.20473.88725fef-dee7-47d9-baf0-018eda52a5f6.e10c0336-59bd-4017-a286-8f1a2686aac0.fb164eda-1f39-490b-b988-9e823bb44a4a"
+        },
+        "title": "NewCos",
+        "description": "Trabajé principalmente como desarrollador front-end, creando pantallas en la aplicación. Una de las funciones en las que trabajé (BeComm) se amplió para convertirse en un producto independiente, y como yo conocía mejor el código me eligieron para dirigir la transición.",
+        "rol":"Principalmente front end",
+        "techs": {
+          "react": "true",
+          "node": "true",
+          "tailwind": "true",
+          "ts": "true",
+          "git": "true",
+          "github": "true"
+        }
+      },
+      {
+        "anchor": "https://appsource.microsoft.com/es-es/product/office/WA200006299?tab=Overview",
+        "anchor_msg": "Ir a la tienda",
+        "img": {
+          "alt": "BeComm image",
+          "src": "https://store-images.s-microsoft.com/image/apps.37956.c9d6149a-d6bc-47c1-adc4-59d91083cb09.39165ffe-fa79-4585-91b8-991f3996584f.00d3baf5-cb3e-4220-b2a7-a32fd4ee9c1d.png"
+        },
+        "title": "BeComm",
+        "description": "BeComm es una solución desarrollada dentro de Microsoft Teams que te permite administrar y gestionar las comunicaciones internas con las personas de tu organización de una forma sencilla y ágil. Por varios meses fui el principal desarrollador de la aplicación, desarrollando nuevas pantallas y características.",
+        "rol":"Full stack",
+        "techs": {
+          "react": "true",
+          "node": "true",
+          "tailwind": "true",
+          "ts": "true",
+          "git": "true",
+          "github": "true"
+        }
+      },
+      {
+        "anchor": "https://tic-tac-toe-pedro-peyon.vercel.app/",
+        "anchor_msg": "Click para jugar",
+        "img": {
+          "alt": "tictactoe",
+          "src": "/tictactoe.png"
+        },
+        "title": "Tic Tac Toe",
+        "description": "Juego de Tic Tac Toe con offline y salas online donde puedes con otras personas. Creado usando Socket.io.",
+        "rol":"Full stack",
+        "techs": {
+          "react": "true",
+          "node": "true",
+          "js": "true",
+          "git": "true",
+          "github": "true",
+          "socket": "true"
+        }
+      },
+      {
+        "anchor": "https://henryhome.vercel.app/",
+        "anchor_msg": "Ver deploy",
+        "img": {
+          "alt": "Henry-Home",
+          "src": "/PG_Henry-Home.png"
+        },
+        "title": "Henry Home",
+        "description": "App FullStack Creada con otros 5 programadores utilizando el método SCRUM. La app funciona como puente entre el anfitrión de una casa y el huésped. Permite crear, revisar y reservar en las casas.",
+        "rol":"Back end",
+        "techs": {
+          "react": "true",
+          "node": "true",
+          "js": "true",
+          "git": "true",
+          "github": "true"
+        }
+      },
+      {
+        "anchor": "https://github.com/Aguxteen/PI-VideoGames",
+        "anchor_msg": "Ver código",
+        "img": {
+          "alt": "Videogames",
+          "src": "/PI_videogames.png"
+        },
+        "title": "PI Videogames",
+        "description": "App FullStack sobre videojuegos donde puedes encontrar, filtrar, ordenar y crear videojuegos usando información de una API.",
+        "rol":"Full stack",
+        "techs": {
+          "react": "true",
+          "node": "true",
+          "js": "true",
+          "git": "true",
+          "github": "true"
+        }
+      }
+    ]
+  },
+    "contact": {
+    "title":"Puedes contactarme por ",
+    "my": "Mi "
+  },
+  "footer": "Gracias por su tiempo"
+}

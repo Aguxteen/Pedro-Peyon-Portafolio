@@ -1,0 +1,148 @@
+{
+  "head": {
+    "title": ["Hi.", "I'm"],
+    "subtitle":"FullStack Developer",
+
+    "buttons": [
+      {
+        "text": "About me",
+        "value": "about"
+      },
+      {
+        "text": "Experience",
+        "value": "experience"
+      },
+      {
+        "text": "Projects",
+        "value": "projects"
+      },
+      {
+        "text": "Contact Me",
+        "value": "contact"
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "presentation": [
+      "Full stack developer with ",
+      "2 years of experience",
+      " in technologies like React, Node or Tailwind. I love programming, especially in projects that challenge my skills, in order to keep growing as a professional."
+    ],
+    "technologies": "Technologies"
+  },
+  "experience": {
+    "title": "My experience",
+    "date": "apr. 2022 - oct. 2023",
+    "description": [
+      "At Newtech Group I was fortunate to work with a great team that gave me the opportunity to take on a wide range of responsibilities. This experience allowed me to gain a deep understanding of web development. One of the highlights of my time at Newtech was",
+      " taking the lead on a migration project ",
+      ". Not only was I actively involved in coding and technical troubleshooting, but I also took on the role of project leader, supervising and directing two colleagues in the execution of the project. Although this experience was a great challenge,",
+      " it boosted my skills as a programmer and my project management"
+    ],
+    "technologies": "Technologies"
+  },
+  "projects": {
+    "title": "Projects",
+    "list": [
+      {
+        "anchor": "https://appsource.microsoft.com/es-es/product/web-apps/newtech.1001-0001?tab=Overview",
+        "anchor_msg": "Go to store",
+        "img": {
+          "alt": "NewCos image",
+          "src": "https://store-images.s-microsoft.com/image/apps.20473.88725fef-dee7-47d9-baf0-018eda52a5f6.e10c0336-59bd-4017-a286-8f1a2686aac0.fb164eda-1f39-490b-b988-9e823bb44a4a"
+        },
+        "title": "NewCos",
+        "description": "I worked primarily as a front-end developer, creating screens in the application. One of the functions I worked on (BeComm) scaled up to become a separate product, and since I knew the code best I was chosen to lead the transition.",
+        "rol":"Mostly front end",
+        "techs": {
+          "react": "true",
+          "node": "true",
+          "tailwind": "true",
+          "ts": "true",
+          "git": "true",
+          "github": "true"
+        }
+      },
+      {
+        "anchor": "https://appsource.microsoft.com/es-es/product/office/WA200006299?tab=Overview",
+        "anchor_msg": "Go to store",
+        "img": {
+          "alt": "BeComm image",
+          "src": "https://store-images.s-microsoft.com/image/apps.37956.c9d6149a-d6bc-47c1-adc4-59d91083cb09.39165ffe-fa79-4585-91b8-991f3996584f.00d3baf5-cb3e-4220-b2a7-a32fd4ee9c1d.png"
+        },
+        "title": "BeComm",
+        "description": "BeComm is a solution developed within Microsoft Teams that allows you to administer and manage internal communications with people in your organization in a simple and agile way. For several months I was the main developer of the application, developing new screens and features.",
+        "rol":"Full stack",
+        "techs": {
+          "react": "true",
+          "node": "true",
+          "tailwind": "true",
+          "ts": "true",
+          "git": "true",
+          "github": "true"
+        }
+      },
+      {
+        "anchor": "https://tic-tac-toe-pedro-peyon.vercel.app/",
+        "anchor_msg": "Click to play",
+        "img": {
+          "alt": "tictactoe",
+          "src": "/tictactoe.png"
+        },
+        "title": "Tic Tac Toe",
+        "description": "Tic Tac Toc video game with offline and online rooms where you can play with other users. Created using Socket.io.",
+        "rol":"Full stack",
+        "techs": {
+          "react": "true",
+          "node": "true",
+          "js": "true",
+          "git": "true",
+          "github": "true",
+          "socket": "true"
+        }
+      },
+      {
+        "anchor": "https://henryhome.vercel.app/",
+        "anchor_msg": "View deploy",
+        "img": {
+          "alt": "Henry-Home",
+          "src": "/PG_Henry-Home.png"
+        },
+        "title": "Henry Home",
+        "description": "FullStack App Created with other 5 programers using SCRUM method. The app works as a bridge between the host of a house and the guest. Allow creating, review and reserve in the houses.",
+        "rol":"Back end",
+        "techs": {
+          "react": "true",
+          "node": "true",
+          "js": "true",
+          "git": "true",
+          "github": "true"
+        }
+      },
+      {
+        "anchor": "https://github.com/Aguxteen/PI-VideoGames",
+        "anchor_msg": "View code",
+        "img": {
+          "alt": "Videogames",
+          "src": "/PI_videogames.png"
+        },
+        "title": "PI Videogames",
+        "description": "FullStack App about video games where you can find, filter, order, and create video games using information from an API.",
+        "rol":"Full stack",
+        "techs": {
+          "react": "true",
+          "node": "true",
+          "js": "true",
+          "git": "true",
+          "github": "true"
+        }
+      }
+    ]
+  },
+  "contact": {
+    "title": "You can contact me through ",
+    "my": "My "
+  },
+  "footer": "Thank you for your time"
+}

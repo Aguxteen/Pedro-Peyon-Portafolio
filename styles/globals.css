@@ -2,7 +2,12 @@ html,
 body {
   --color-blanco: #ffff;
   --color-fondo: #282828;
+  /* --color-detalle: #5669e3; */
+  /* --color-detalle-oscuro: #4e60d2 ; */
+  --color-detalle-oscuro: #178C54 ;
+  --color-detalle-claro: #A7F1CD ;
   --color-detalle: #56E39F;
+
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -12,6 +17,16 @@ body {
   color: var(--color-blanco);
  
 }
+b{
+  color: var(--color-detalle-claro);
+}
+h1 {
+  text-align: center;
+  color: var(--color-detalle);
+}
+
+
+
 body::-webkit-scrollbar {
   width: .5rem;
 }
@@ -26,4 +41,77 @@ body::-webkit-scrollbar-thumb {
 a {
   color: inherit;
   text-decoration: none;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  font-size: small;
+  color: var(--color-blanco);
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-detalle-oscuro);
+
+  border-color: var(--color-blanco);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.elemento-esquina {
+  position: fixed;
+  top: 10px; 
+  right: 10px; 
+}
+
+.slider:before {
+  position: absolute;
+  content: "ENG";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: var(--color-fondo);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: var(--color-detalle-claro);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--color-detalle-claro);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  content:"SPA"
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
