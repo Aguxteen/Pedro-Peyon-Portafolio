@@ -5,7 +5,7 @@ const ProjectsDisplay = ({ projects }) => {
   return (
     <>
       <div className={styles.grid}>
-        {projects.map((el, key) => (
+        {projects?.map((el, key) => (
            <a
             key={key}
             target="_blank "
