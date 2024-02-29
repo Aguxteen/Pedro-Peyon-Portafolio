@@ -114,6 +114,7 @@
         "rol":"Back end",
         "techs": {
           "react": "true",
+          "redux": "true",
           "node": "true",
           "js": "true",
           "git": "true",
@@ -132,6 +133,7 @@
         "rol":"Full stack",
         "techs": {
           "react": "true",
+          "redux": "true",
           "node": "true",
           "js": "true",
           "git": "true",
