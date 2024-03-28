@@ -1,7 +1,7 @@
 {
   "head": {
     "title": ["Hi.", "I'm"],
-    "subtitle":"FullStack Developer",
+    "subtitle": "FullStack Developer",
 
     "buttons": [
       {
@@ -33,14 +33,28 @@
   },
   "experience": {
     "title": "My experience",
-    "date": "apr. 2022 - oct. 2023",
-    "description": [
-      "At Newtech Group I was fortunate to work with a great team that gave me the opportunity to take on a wide range of responsibilities. This experience allowed me to gain a deep understanding of web development. One of the highlights of my time at Newtech was",
-      " taking the lead on a migration project ",
-      ". Not only was I actively involved in coding and technical troubleshooting, but I also took on the role of project leader, supervising and directing two colleagues in the execution of the project. Although this experience was a great challenge,",
-      " it boosted my skills as a programmer and my project management"
-    ],
-    "technologies": "Technologies"
+    "experiences": [
+      {
+        "date": "apr. 2022 - oct. 2023",
+
+        "description": [
+          "At Newtech Group I was fortunate to work with a great team that gave me the opportunity to take on a wide range of responsibilities. This experience allowed me to gain a deep understanding of web development. One of the highlights of my time at Newtech was",
+          " taking the lead on a migration project ",
+          ". Not only was I actively involved in coding and technical troubleshooting, but I also took on the role of project leader, supervising and directing two colleagues in the execution of the project. Although this experience was a great challenge,",
+          " it boosted my skills as a programmer and my project management"
+        ],
+        "technologies": "Technologies"
+      },
+      {
+        "date": "2021 - 2022",
+        "description": [
+          "I worked at Skyland as a junior web developer, assisting in the",
+          " development of a web application ",
+          "for a restaurant and ice cream parlor. Customers could view the menu and place orders using their mobile phones"
+        ],
+        "technologies": "Technologies"
+      }
+    ]
   },
   "projects": {
     "title": "Projects",
@@ -54,7 +68,7 @@
         },
         "title": "NewCos",
         "description": "I worked primarily as a front-end developer, creating screens in the application. One of the functions I worked on (BeComm) scaled up to become a separate product, and since I knew the code best I was chosen to lead the transition.",
-        "rol":"Mostly front end",
+        "rol": "Mostly front end",
         "techs": {
           "react": "true",
           "node": "true",
@@ -73,7 +87,7 @@
         },
         "title": "BeComm",
         "description": "BeComm is a solution developed within Microsoft Teams that allows you to administer and manage internal communications with people in your organization in a simple and agile way. For several months I was the main developer of the application, developing new screens and features.",
-        "rol":"Full stack",
+        "rol": "Full stack",
         "techs": {
           "react": "true",
           "node": "true",
@@ -92,7 +106,7 @@
         },
         "title": "Tic Tac Toe",
         "description": "Tic Tac Toc video game with offline and online rooms where you can play with other users. Created using Socket.io.",
-        "rol":"Full stack",
+        "rol": "Full stack",
         "techs": {
           "react": "true",
           "node": "true",
@@ -111,7 +125,7 @@
         },
         "title": "Henry Home",
         "description": "FullStack App Created with other 5 programers using SCRUM method. The app works as a bridge between the host of a house and the guest. Allow creating, review and reserve in the houses.",
-        "rol":"Back end",
+        "rol": "Back end",
         "techs": {
           "react": "true",
           "redux": "true",
@@ -130,7 +144,7 @@
         },
         "title": "PI Videogames",
         "description": "FullStack App about video games where you can find, filter, order, and create video games using information from an API.",
-        "rol":"Full stack",
+        "rol": "Full stack",
         "techs": {
           "react": "true",
           "redux": "true",

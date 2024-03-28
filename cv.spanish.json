@@ -1,7 +1,7 @@
 {
   "head": {
     "title": ["Hola,", "soy"],
-    "subtitle":"Desarrollador Fullstack",
+    "subtitle": "Desarrollador Fullstack",
     "buttons": [
       {
         "text": "Sobre mi",
@@ -32,14 +32,28 @@
   },
   "experience": {
     "title": "Mi experiencia",
-    "date": "abr. 2022 - oct. 2023",
-    "description": [
-      "En Newtech Group tuve la suerte de trabajar con un gran equipo que me brindó la oportunidad de asumir una amplia gama de responsabilidades. Esta experiencia me permitió adquirir una comprensión profunda del desarrollo web, Uno de los hitos más destacados de mi tiempo en Newtech fue",
-      " asumir el liderazgo en un proyecto de migración ",
-      ". No solo participé activamente en la codificación y la resolución de problemas técnicos, sino que también asumí el rol de líder del proyecto, supervisando y dirigiendo a dos colegas en la ejecución del proyecto. Aunque esta experiencia supuso un gran desafío,",
-      " impulsó mis habilidades como programador y a mi gestión de proyectos"
-    ],
-    "technologies": "Tecnologías"
+
+    "experiences": [
+      {
+        "date": "abr. 2022 - oct. 2023",
+        "description": [
+          "En Newtech Group tuve la suerte de trabajar con un gran equipo que me brindó la oportunidad de asumir una amplia gama de responsabilidades. Esta experiencia me permitió adquirir una comprensión profunda del desarrollo web, Uno de los hitos más destacados de mi tiempo en Newtech fue",
+          " asumir el liderazgo en un proyecto de migración ",
+          ". No solo participé activamente en la codificación y la resolución de problemas técnicos, sino que también asumí el rol de líder del proyecto, supervisando y dirigiendo a dos colegas en la ejecución del proyecto. Aunque esta experiencia supuso un gran desafío,",
+          " impulsó mis habilidades como programador y a mi gestión de proyectos"
+        ],
+        "technologies": "Tecnologías"
+      },
+      {
+        "date": "2021 - 2022",
+        "description": [
+          "Trabajé en Skyland como desarrollador web junior ayudando en el",
+          " desarrollo de una aplicación web ",
+          "para un restaurante y heladería. Los clientes podían ver el menú y realizar pedidos usando su celular"
+        ],
+        "technologies": "Tecnologías"
+      }
+    ]
   },
   "projects": {
     "title": "Proyectos",
@@ -53,7 +67,7 @@
         },
         "title": "NewCos",
         "description": "Trabajé principalmente como desarrollador front-end, creando pantallas en la aplicación. Una de las funciones en las que trabajé (BeComm) se amplió para convertirse en un producto independiente, y como yo conocía mejor el código me eligieron para dirigir la transición.",
-        "rol":"Principalmente front end",
+        "rol": "Principalmente front end",
         "techs": {
           "react": "true",
           "node": "true",
@@ -72,7 +86,7 @@
         },
         "title": "BeComm",
         "description": "BeComm es una solución desarrollada dentro de Microsoft Teams que te permite administrar y gestionar las comunicaciones internas con las personas de tu organización de una forma sencilla y ágil. Por varios meses fui el principal desarrollador de la aplicación, desarrollando nuevas pantallas y características.",
-        "rol":"Full stack",
+        "rol": "Full stack",
         "techs": {
           "react": "true",
           "node": "true",
@@ -91,7 +105,7 @@
         },
         "title": "Tic Tac Toe",
         "description": "Juego de Tic Tac Toe con offline y salas online donde puedes con otras personas. Creado usando Socket.io.",
-        "rol":"Full stack",
+        "rol": "Full stack",
         "techs": {
           "react": "true",
           "node": "true",
@@ -110,7 +124,7 @@
         },
         "title": "Henry Home",
         "description": "App FullStack Creada con otros 5 programadores utilizando el método SCRUM. La app funciona como puente entre el anfitrión de una casa y el huésped. Permite crear, revisar y reservar en las casas.",
-        "rol":"Back end",
+        "rol": "Back end",
         "techs": {
           "react": "true",
           "redux": "true",
@@ -129,7 +143,7 @@
         },
         "title": "PI Videogames",
         "description": "App FullStack sobre videojuegos donde puedes encontrar, filtrar, ordenar y crear videojuegos usando información de una API.",
-        "rol":"Full stack",
+        "rol": "Full stack",
         "techs": {
           "react": "true",
           "redux": "true",
@@ -141,8 +155,8 @@
       }
     ]
   },
-    "contact": {
-    "title":"Puedes contactarme por ",
+  "contact": {
+    "title": "Puedes contactarme por ",
     "my": "Mi "
   },
   "footer": "Gracias por su tiempo"

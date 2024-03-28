@@ -109,17 +109,45 @@ export default function Home() {
               <h2>
                 Full stack developer - <b>Newtech Group</b>
               </h2>
-              <p>{cvJson.experience.date}</p>
+              <p>{cvJson.experience.experiences[0].date}</p>
               <p className={styles.pNewtech}>
-                {cvJson.experience.description[0]}
-                <b>{cvJson.experience.description[1]}</b>
-                {cvJson.experience.description[2]}
-                <b>{cvJson.experience.description[3]}</b>.
+                {cvJson.experience.experiences[0].description[0]}
+                <b>{cvJson.experience.experiences[0].description[1]}</b>
+                {cvJson.experience.experiences[0].description[2]}.
               </p>
               <p>
-                <b>{cvJson.experience.technologies}</b>
+                <b>{cvJson.experience.experiences[0].technologies}</b>
               </p>
               <Techs react node tailwind js ts git github />
+            </div>
+          </a>
+          <a
+            target="_blank "
+            // href="https://newtechgroup.com/"
+            className={styles.flex2}
+          >
+            <div>
+              <h2>
+                Full stack developer - <b>Skyland SRL</b>
+              </h2>
+              <p>{cvJson.experience.experiences[1].date}</p>
+              <p className={styles.pNewtech}>
+                {cvJson.experience.experiences[1].description[0]}
+                <b>{cvJson.experience.experiences[1].description[1]}</b>
+                {cvJson.experience.experiences[1].description[2]}
+                <b>{cvJson.experience.experiences[1].description[3]}</b>.
+              </p>
+              <p>
+                <b>{cvJson.experience.experiences[1].technologies}</b>
+              </p>
+              <Techs react node js git github css html />
+            </div>
+            <div>
+              <img
+                alt="JacksLounge"
+                className={styles.newtechimg}
+                src="/JacksLounge.png"
+              />
             </div>
           </a>
         </div>
